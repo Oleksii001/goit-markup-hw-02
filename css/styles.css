@@ -11,8 +11,9 @@
 
 body {
         font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        background: #FFFFFF;
+        letter-spacing: 0.02em;
+        font-size: 16px;
+       background-color: #FFFFFF;
         color: #2E2F42;
 }
 
@@ -62,8 +63,6 @@ font-family: 'Raleway';
 
 .header-list {}
 
-.list {}
-
 .header-item {}
 
 .header-link {
@@ -75,6 +74,9 @@ font-family: 'Raleway';
 }
 .header-link:is(:hover,:focus) {
 color: var(--btn-bg-color-active);
+}
+.current {
+        color: var(--btn-text-color);
 }
 
 .adress {
@@ -103,11 +105,9 @@ color: var(--btn-bg-color-active);
 
 }
 /* -------------------------website list-------------------- */
-.main {}
 
 .main-section {}
 
-.visually-hidden {}
 
 .main-section-list {
 
@@ -118,23 +118,22 @@ color: var(--btn-bg-color-active);
 }
 .item-button:hover,
 .item-button:focus {
-        background: var(--btn-bg-color-active);
+        background-color: var(--btn-bg-color-active);
         color: var(--btn-text-color-active);
 }
 .item-button {
-       
+        font-family: inherit;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: var(--btn-text-color);
-        background: var(--second-bg-color);
+        background-color: var(--second-bg-color);
         cursor: pointer;
 }
 /* ------------------------------CARD LIST--------------------------- */
 
-.visually-hidden {}
 
 .card-list {}
 
@@ -154,15 +153,13 @@ color: var(--btn-bg-color-active);
 }
 
 .after-title {
-        font-size: 16px;
-        line-height: 1,5;
-        letter-spacing: 0.02em;
+        line-height: 1.5;
         color: var(--second-text-color);
 }
 /* -------------------------------------------------------------STUDIO---------------------------------------------- */
 /* ------------------------Hero-------------------------- */
 .hero {
-        background: var(--main-text-color);
+        background-color: var(--main-text-color);
 }
 
 .hero-title {
@@ -180,13 +177,14 @@ color: var(--btn-bg-color-active);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        background: var(--btn-text-color);
+        background-color: var(--btn-text-color);
         color: var(--btn-text-color-active);
         cursor: pointer;
+        font-family: inherit;
 }
 .hero-button:hover,
 .hero-button:focus {
-        background: var(--btn-bg-color-active);
+        background-color: var(--btn-bg-color-active);
 }
 
 /* ------------------------------SECTION 2 -------------------------- */
@@ -196,11 +194,9 @@ color: var(--btn-bg-color-active);
 
 .features {}
 
-.visually-hidden {}
 
 .features-list {}
 
-.list {}
 
 .features-list-item {}
 
@@ -213,9 +209,7 @@ color: var(--btn-bg-color-active);
 }
 
 .after-about-title {
-        font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em;
         color: var(--second-text-color);
 }
 
@@ -238,7 +232,6 @@ color: var(--btn-bg-color-active);
 
 .development-list {}
 
-.list {}
 
 .development-list-item {}
 
@@ -246,7 +239,9 @@ color: var(--btn-bg-color-active);
 
 /* --------------------------------SECTION 4------------------------------- */
 
-.team {}
+.team {
+        background-color: var(--second-bg-color);
+}
 
 .team-title {
         font-weight: 700;
@@ -255,6 +250,7 @@ color: var(--btn-bg-color-active);
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--main-text-color);
+
 }
 
 .team-title-list {}
@@ -273,9 +269,7 @@ color: var(--btn-bg-color-active);
 }
 
 .after-team-title {
-        font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em;
         color: var(--second-text-color);
 }
 
@@ -283,8 +277,18 @@ color: var(--btn-bg-color-active);
 /* --------------------Footer----------------------- */
 
 .footer {
-
+        background-color: #2E2F42;
 }
+
+.navi-logo-footer {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1,16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--second-bg-color);
+}
+
 .footer-text {
 font-size: 16px;
 line-height: 1.5px;
