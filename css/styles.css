@@ -283,7 +283,7 @@ color: var(--btn-bg-color-active);
 .navi-logo-footer {
         font-weight: 800;
         font-size: 18px;
-        line-height: 1,16;
+        line-height: 1.16;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--second-bg-color);
@@ -291,7 +291,7 @@ color: var(--btn-bg-color-active);
 
 .footer-text {
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
